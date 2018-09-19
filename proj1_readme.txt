@@ -26,3 +26,5 @@ There are 3 running scripts:
       2. python SGDMC_Test.py SGDMC wine.data
 All the running scripts, at the beginning of the execution, the script askes for dataset parameters such as, number of features, 
 number of instance in each class, and the position of the classes labels.
+
+In addition, "ipython.html" contanis the console output of some of the ran commands.
