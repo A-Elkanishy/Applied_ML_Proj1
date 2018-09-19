@@ -101,7 +101,7 @@ for i in range(0,H2):
     if classifier.predict(X[N_I_C1+i])==1 :
         IP+=1
 
-print(" Accuracy is "+ str(IP/(H1+H2)*100))
+print(" Accuracy is "+ str((H1+H2-IP)/(H1+H2)*100))
 
 '''
 from Adaline import AdalineGD
